@@ -1,0 +1,10 @@
+fun main() {
+    println(movileTime(300, 250))
+    println(movileTime(300, 300))
+    println(movileTime(200, 220))
+    
+}
+
+fun movileTime(today: Int, yesterday: Int): Boolean {
+	return today > yesterday
+}

@@ -1,0 +1,9 @@
+fun main() {
+  println(weatherInCity("Ankara", 27, 31, 82))
+	println(weatherInCity("Tokyo", 32, 36, 10))
+  println(weatherInCity("Cape Town", 59, 64, 2))
+	println(weatherInCity("Guatemala City", 50, 55, 7))
+}
+fun weatherInCity(City: String, lowTemperature: Int, highTemperature: Int, chanceOfRain: Int): String {
+	return "City: $City\nLow temperature: $lowTemperature, High temperature: $highTemperature\nChance of rain: $chanceOfRain\n"
+}
